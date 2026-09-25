@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Trang web chính thức của Câu lạc bộ Lập trình LHU - Nơi hội tụ các bạn trẻ yêu thích công nghệ và lập trình."
+    />
+    <title>CLB Lập trình LHU - Trang chủ</title>
+    <link rel="stylesheet" href="125002283.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="page-layout">
+      <header>
+        <div class="nav-container">
+          <a href="#" class="logo">CLB Lập Trình LHU</a>
+          <nav>
+            <ul class="nav-links">
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#hoat-dong">Hoạt động</a></li>
+              <li><a href="#thanh-vien">Thành viên</a></li>
+              <li><a href="#lien-he">Liên hệ</a></li>
+            </ul>
+          </nav>
+          <button
+            class="theme-toggle"
+            id="themeToggleBtn"
+            onclick="toggleTheme()"
+          >
+            🌓 DarkMode
+          </button>
+        </div>
+      </header>
+
+      <section class="banner animate__animated animate__fadeIn">
+        <h1>Chinh Phục Thế Giới Công Nghệ</h1>
+        <p>
+          Nơi hội tụ các tài năng lập trình trẻ tuổi, sáng tạo và đam mê tại Đại
+          học Lạc Hồng.
+        </p>
+        <a href="#thanh-vien" class="btn">Tham gia ngay</a>
+      </section>
+
+      <main class="content-section" id="hoat-dong">
+        <h2 class="section-title animate__animated animate__bounceIn">
+          Hoạt động nổi bật
+        </h2>
+        <div class="grid-cards">
+          <article class="card animate__animated animate__fadeInLeft">
+            <img src="pj2.jpg" alt="Workshop Lập trình Web căn bản" />
+            <div class="card-body">
+              <h3 class="card-title">Workshop Lập trình Web</h3>
+              <span class="card-date">Ngày tổ chức: 15/10/2026</span>
+              <p class="card-desc">
+                Hướng dẫn tạo trang web chuẩn Responsive bằng HTML, CSS Grid và
+                Flexbox.
+              </p>
+            </div>
+          </article>
+
+          <article class="card animate__animated animate__fadeInUp">
+            <img src="pj3.jpg" alt="Cuộc thi Hackathon sinh viên LHU" />
+            <div class="card-body">
+              <h3 class="card-title">Cuộc thi Hackathon LHU</h3>
+              <span class="card-date">Ngày tổ chức: 20/11/2026</span>
+              <p class="card-desc">
+                Sân chơi lập trình xuyên đêm giải quyết các bài toán thực tế của
+                doanh nghiệp.
+              </p>
+            </div>
+          </article>
+
+          <article class="card animate__animated animate__fadeInRight">
+            <img src="pj4.jpg" alt="Seminar Trí tuệ nhân tạo AI" />
+            <div class="card-body">
+              <h3 class="card-title">Seminar Trí tuệ Nhân tạo</h3>
+              <span class="card-date">Ngày tổ chức: 05/12/2026</span>
+              <p class="card-desc">
+                Cập nhật các xu hướng AI mới nhất và ứng dụng Machine Learning
+                trong đời sống.
+              </p>
+            </div>
+          </article>
+
+          <article class="card animate__animated animate__fadeInLeft">
+            <img src="pj5.jpg" alt="Buổi chia sẻ kinh nghiệm phỏng vấn IT" />
+            <div class="card-body">
+              <h3 class="card-title">Kỹ năng phỏng vấn IT</h3>
+              <span class="card-date">Ngày tổ chức: 12/01/2027</span>
+              <p class="card-desc">
+                Giao lưu cùng cựu sinh viên thành công tại các tập đoàn công
+                nghệ lớn.
+              </p>
+            </div>
+          </article>
+
+          <article class="card animate__animated animate__fadeInUp">
+            <img src="pj6.jpg" alt="Dự án mã nguồn mở cộng đồng" />
+            <div class="card-body">
+              <h3 class="card-title">Dự án Mã nguồn mở</h3>
+              <span class="card-date">Ngày tổ chức: 18/02/2027</span>
+              <p class="card-desc">
+                Cùng nhau đóng góp vào các dự án phần mềm miễn phí cho cộng đồng
+                sinh viên.
+              </p>
+            </div>
+          </article>
+
+          <article class="card animate__animated animate__fadeInRight">
+            <img src="pj7.jpg" alt="Gặp mặt giao lưu đầu năm học" />
+            <div class="card-body">
+              <h3 class="card-title">Ngày hội Giao lưu Tân sinh viên</h3>
+              <span class="card-date">Ngày tổ chức: 01/03/2027</span>
+              <p class="card-desc">
+                Kết nối thành viên mới, sinh hoạt văn nghệ và các trò chơi đồng
+                đội hấp dẫn.
+              </p>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <section class="form-section" id="thanh-vien">
+        <h2 class="section-title">Đăng Ký Thành Viên CLB</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="fullname">Họ và tên</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              class="form-control"
+              placeholder="Nhập họ và tên đầy đủ của bạn"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="dob">Ngày sinh</label>
+            <input
+              type="date"
+              id="dob"
+              name="dob"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              placeholder="example@gmail.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Điện thoại</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              class="form-control"
+              placeholder="0901234567"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label>Giới tính</label>
+            <div class="radio-group">
+              <label class="radio-item"
+                ><input type="radio" name="gender" value="Nam" checked />
+                Nam</label
+              >
+              <label class="radio-item"
+                ><input type="radio" name="gender" value="Nữ" /> Nữ</label
+              >
+              <label class="radio-item"
+                ><input type="radio" name="gender" value="Khác" /> Khác</label
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="faculty">Khoa đang học</label>
+            <select id="faculty" name="faculty" class="form-control" required>
+              <option value="">-- Chọn khoa của bạn --</option>
+              <option value="cntt">Công nghệ Thông tin</option>
+              <option value="kt">Kế toán - Quản trị Kinh doanh</option>
+              <option value="ck">Cơ hội - Kỹ thuật Công trình</option>
+              <option value="nn">Ngôn ngữ Anh</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Lĩnh vực quan tâm</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item"
+                ><input type="checkbox" name="interest" value="web" /> Lập trình
+                Web</label
+              >
+              <label class="checkbox-item"
+                ><input type="checkbox" name="interest" value="mobile" /> Lập
+                trình Mobile</label
+              >
+              <label class="checkbox-item"
+                ><input type="checkbox" name="interest" value="ai" /> Trí tuệ
+                Nhân tạo (AI)</label
+              >
+              <label class="checkbox-item"
+                ><input type="checkbox" name="interest" value="design" /> Thiết
+                kế đồ họa</label
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="reason">Lý do muốn tham gia</label>
+            <textarea
+              id="reason"
+              name="reason"
+              class="form-control"
+              rows="4"
+              placeholder="Chia sẻ đôi điều về mong muốn của bạn khi vào CLB..."
+            ></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn">Đăng ký</button>
+            <button type="reset" class="btn btn-secondary">Nhập lại</button>
+          </div>
+        </form>
+      </section>
+
+      <footer id="lien-he">
+        <div class="footer-content">
+          <p>
+            Địa chỉ sinh hoạt: Cơ sở 1, Trường Đại học Lạc Hồng, Số 10 Huỳnh Văn
+            Nghệ, P. Bửu Long, TP. Biên Hòa, Đồng Nai.
+          </p>
+          <p>Email liên hệ: clblaptrinh@lhu.edu.vn | Hotline: 0251 3951 915</p>
+          <p>Mạng xã hội: facebook.com/CLBLapTrinhLHU</p>
+          <p>
+            &copy; 2026 Bản quyền thuộc về Câu lạc bộ Lập trình LHU. All rights
+            reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function toggleTheme() {
+        const html = document.documentElement;
+        const currentTheme = html.getAttribute("data-theme");
+        const btn = document.getElementById("themeToggleBtn");
+
+        if (currentTheme === "dark") {
+          html.removeAttribute("data-theme");
+          btn.innerText = "🌓 DarkMode";
+        } else {
+          html.setAttribute("data-theme", "dark");
+          btn.innerText = "☀️ LightMode";
+        }
+      }
+    </script>
+  </body>
+</html>
